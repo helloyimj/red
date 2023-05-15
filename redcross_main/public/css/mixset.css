@@ -1,0 +1,51 @@
+.flex_center {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.test_1 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.test_2 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.test_3 {
+  line-height: 1.3;
+}
+
+.test_4 {
+  width: 50%;
+}
+
+.test_5 {
+  width: 31.25%;
+  background-color: #d33;
+}
+
+.test_6 {
+  background-image: url("test/img.png");
+}
+
+.test_7 {
+  width: 100px;
+}
+
+.test_mixin {
+  width: 100px;
+  height: 200px;
+}
+
+.test_func {
+  width: 50%;
+}
